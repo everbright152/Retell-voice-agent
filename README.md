@@ -33,8 +33,3 @@ document.cookie = "MAINT_BYPASS=<your-secret>; path=/; secure; samesite=lax";
 MAINTENANCE_MODE=on
 MAINTENANCE_BYPASS=some-long-random-secret
 ```
-
-Restart the dev server after changes.
-
-### Health check endpoint
-`GET /api/health` returns `{ ok: true }` and status `200` for uptime monitors.
